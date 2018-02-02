@@ -24,21 +24,36 @@ body {
   font-family: 'Muli', sans-serif;
   font-size: 2.2rem;
 }
+.display-1 > .mbr-iconfont {
+  font-size: 3.52rem;
+}
 .display-2 {
   font-family: 'Muli', sans-serif;
   font-size: 1.8rem;
+}
+.display-2 > .mbr-iconfont {
+  font-size: 2.88rem;
 }
 .display-4 {
   font-family: 'Muli', sans-serif;
   font-size: 1.2rem;
 }
+.display-4 > .mbr-iconfont {
+  font-size: 1.92rem;
+}
 .display-5 {
   font-family: 'Muli', sans-serif;
   font-size: 1.2rem;
 }
+.display-5 > .mbr-iconfont {
+  font-size: 1.92rem;
+}
 .display-7 {
   font-family: 'Muli', sans-serif;
   font-size: 1rem;
+}
+.display-7 > .mbr-iconfont {
+  font-size: 1.6rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -84,13 +99,6 @@ body {
   align-items: center;
   justify-content: center;
   word-break: break-word;
-}
-.btn .mbr-iconfont {
-  font-size: 1.6rem;
-}
-.navbar .btn {
-  font-family: 'Muli', sans-serif;
-  font-size: 1.2rem;
 }
 .btn-sm {
   font-weight: 500;
@@ -620,6 +628,9 @@ a:hover {
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
+.form-control > .mbr-iconfont {
+  font-size: 1.6rem;
+}
 .form-control,
 .form-control:focus {
   border: 1px solid #e8e8e8;
@@ -655,10 +666,6 @@ pre {
   background: #f4f4f4;
   padding: 10px 24px;
   white-space: pre-wrap;
-}
-.navbar-caption {
-  font-family: 'Muli', sans-serif;
-  font-size: 1.2rem;
 }
 .inactive {
   -webkit-user-select: none;
